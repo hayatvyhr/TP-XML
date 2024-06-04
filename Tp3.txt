@@ -1,0 +1,35 @@
+1. Les titres de tous les films : //film/titre
+
+2. Les titres des films où joue Michel Blanc : //film[role/acteur='Michel Blanc']/titre
+
+3. Les types de films répertoriés : //film/@type
+
+4. Les rôles joués par Michel Blanc : //role[acteur='Michel Blanc']/nom
+
+5. L’acteur principal de chaque film (premier dans la distribution) : //film/role[1]/acteur
+
+6. Le nom du producteur qui apparaît juste après Yves Rousset-Rouard : //producteur[preceding-sibling::producteur[nom='Yves Rousset-Rouard']]/nom
+
+7. Les acteurs qui apparaissent avant Michel Blanc dans la distribution des films de Patrice Leconte : //film[realisateur='Patrice Leconte' and role/acteur='Michel Blanc']/role[acteur!='Michel Blanc']/acteur
+
+8. Les réalisateurs des films où jouent Michel Blanc et Thierry Lhermite : //film[role/acteur='Michel Blanc' and role/acteur='Thierry Lhermite']/realisateur
+
+9. Les titres des films avec plus de 5 acteurs dans la distribution : //film[count(role) > 5]/titre
+
+10. Les réalisateurs qui jouent dans au moins un de leurs films : //film[realisateur=role/acteur]/realisateur
+
+11. Les noms des producteurs de comédies : //producteur[../film/@type='comédie']/nom
+
+12. Titre des films qui n’ont pas obtenu de prix : //film[not(prix)]/titre
+
+13. Acteurs qui jouent un personnage dont le nom contient 'Morin' : //role[contains(nom, 'Morin')]/acteur
+
+14. Les acteurs ayant joué dans des comédies avant 1990 : //film[annee < 1990 and @type='comédie']/role/acteur
+
+15. Les réalisateurs des films primés : //film[prix]/realisateur
+
+16. Les titres des films où joue Michel Blanc, mais pas Thierry Lhermite ://film[role/acteur='Michel Blanc' and not(role/acteur='Thierry Lhermite')]/titre
+
+17. L’acteur principal des films ayant pour titre le nom du personnage principal : //film[titre = role[1]/nom]/role[1]/acteur
+
+18. Les titres des films produits par Daniel Toscan du Plantier : //producteur[nom='Daniel Toscan du Plantier']/film/@ref

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv xmlns="utc.fr/nf29/crozatst/schema/cv">
+    <entete>
+        <nom>Roubakhi</nom>
+        <prenom>Hayat</prenom>
+        <dateDeNaissance>30-09-2001</dateDeNaissance>
+        <nationalite>Marocaine</nationalite>
+        <telephone>06227896522</telephone>
+        <mail>hayat@gmail.com</mail>
+    </entete>
+    <Formations>
+        <diplome>
+            <annee>2020-2022</annee>
+            <intitule>Master en Informatique</intitule>
+        </diplome>
+        <diplome>
+            <annee>2018-2020</annee>
+            <intitule>Licence en Mathématiques</intitule>
+        </diplome>
+    </Formations>
+    <stages>
+        <stage>
+            <date>2021-06-01 - 2021-09-01</date>
+            <titre>Stage en Développement Web</titre>
+            <description>Développement d'une application web pour la gestion des stocks.</description>
+        </stage>
+        <stage>
+            <date>2020-07-01 - 2020-09-01</date>
+            <titre>Stage en Analyse de Données</titre>
+            <description>Analyse de données de ventes pour optimiser la stratégie de marketing.</description>
+        </stage>
+    </stages>
+    <competences>
+        <competence>
+            <titre>Programmation Python</titre>
+            <description>Connaissance approfondie de Python pour le développement de scripts et d'applications.</description>
+        </competence>
+        <competence>
+            <titre>Analyse de Données</titre>
+            <description>Expérience dans l'utilisation de bibliothèques de données comme Pandas et NumPy.</description>
+        </competence>
+    </competences>
+    <langues>
+        <langue>
+            <intitule>Français</intitule>
+            <niveau>Courant</niveau>
+        </langue>
+        <langue>
+            <intitule>Anglais</intitule>
+            <niveau>Intermédiaire</niveau>
+        </langue>
+    </langues>
+    <loisirs>
+        <loisir>Lecture de romans</loisir>
+        <loisir>Pratique du tennis</loisir>
+        <loisir>Voyage et exploration</loisir>
+    </loisirs>
+</cv>

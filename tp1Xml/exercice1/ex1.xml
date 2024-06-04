@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "ex1.dtd">
+<article> 
+<titre>Arcticle Xml </titre>
+    <texte>
+        <paragraphe> <important>L’intelligence artificielle (IA)</important>  est un domaine de recherche en pleine expansion.
+             Elle vise à développer des <important>systèmes informatiques</important>  capables de simuler l’intelligence humaine. 
+             Ces systèmes peuvent effectuer des tâches <reference>complexes</reference>  telles que la reconnaissance vocale, 
+             la traduction automatique et même la conduite de véhicules autonomes.
+              Bien qu’elle offre de nombreuses opportunités, l’IA soulève également des questions éthiques importanttes concernant la vie privée, 
+            l’emploi et la responsabilité. Il est essentiel de réglementer son <reference>développement </reference> 
+            et son utilisation afin de garantir un avenir sûr et équitable pour tous.</paragraphe>
+          <paragraphe> <important>La technologie</important> a connu des avancées considérables ces dernières années. <reference>Les smartphones</reference> , en particulier,
+             ont transformé notre façon de communiquer et de travailler. Ils nous permettent non seulement de passer des <reference>appels téléphoniques</reference> ,
+              mais aussi d’envoyer des messages, de naviguer sur<important>internet</important> , de prendre des photos et bien plus encore. Avec tant de fonctionnalités 
+              regroupées en un seul appareil, il n’est pas étonnant que les smartphones soient devenus si populaires.</paragraphe>
+    </texte>
+    <bibliographie>
+        <entree_bibliographique>
+            <site_web>
+                <nom>site1</nom>
+                <url>https://site1</url>
+            </site_web>
+        </entree_bibliographique>
+        <entree_bibliographique>
+            <ouvrage>
+                <titre>titre1</titre>
+                <auteurs>
+                <auteur>vita xml dtd</auteur>
+                <auteur>2 xml dtd</auteur>
+                </auteurs>
+                <date_parution>2001-09-30</date_parution>
+                <editeur>editeur1</editeur>
+            </ouvrage>
+        </entree_bibliographique>
+        <entree_bibliographique>
+            <site_web>
+                <nom>site2</nom>
+                <url>https://site2</url>
+            </site_web>
+        </entree_bibliographique>
+
+    </bibliographie>
+    </article>
+ 

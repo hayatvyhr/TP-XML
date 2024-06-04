@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE site SYSTEM "ex2.dtd">
+<site>
+    <theme nom="actualités">
+      <brève>
+        <titre>Energie</titre>
+        <langue langue="francais"/>
+        <date>2020-04-22</date>
+        <photo>images</photo>
+        <urls>
+            <lien>https://example.com/energy_law</lien>
+            <description>Un article détaillant la nouvelle loi sur l'énergie.</description>
+        </urls>
+      </brève>
+    </theme>
+    <theme nom="sport">
+      <brève>
+        <titre>madrid</titre>
+        <langue langue="anglais"/>
+        <date>2024-04-19</date>
+        <urls>
+            <lien>https://example.com/national_football_team</lien>
+            <description>Informations sur madrid.</description>
+        </urls>
+      </brève>
+    </theme>
+  </site>

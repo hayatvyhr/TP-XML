@@ -1,0 +1,16 @@
+<!ELEMENT article (titre, texte, bibliographie)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT texte (paragraphe+)>
+<!ELEMENT paragraphe (#PCDATA | important | reference)*>
+<!ELEMENT important (#PCDATA)>
+<!ELEMENT reference (#PCDATA)>
+<!ELEMENT bibliographie (entree_bibliographique+)>
+<!ELEMENT entree_bibliographique (ouvrage | site_web)>
+<!ELEMENT site_web (nom, url)>
+<!ELEMENT ouvrage (titre, auteurs, date_parution, editeur)>
+<!ELEMENT auteurs (auteur+)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT date_parution (#PCDATA)>
+<!ELEMENT editeur (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT url (#PCDATA)>

@@ -1,0 +1,15 @@
+<!ELEMENT site (theme+)>
+<!ELEMENT theme (brève+)>
+<!ATTLIST theme
+  nom (actualités | sport | bourse | média) #REQUIRED>
+
+<!ELEMENT brève (titre, langue, date, photo?, urls+)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT langue (#PCDATA)>
+<!ATTLIST langue
+  langue (francais | anglais) #REQUIRED>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT photo (#PCDATA)>
+<!ELEMENT urls (lien, description)>
+<!ELEMENT lien (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

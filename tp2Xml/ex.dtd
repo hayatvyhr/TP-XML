@@ -1,0 +1,12 @@
+<!ELEMENT Serie (BD+)>
+<!ELEMENT BD (Titre, Numero?, SousTitre?, Auteur+, Illustrateur, Resume, DateDeSortie, Couverture?)>
+<!ELEMENT Auteur (Nom, Prenom)>
+<!ELEMENT Illustrateur (Nom, Prenom)>
+<!ELEMENT Titre (#PCDATA)>
+<!ELEMENT SousTitre (#PCDATA)>
+<!ELEMENT Numero (#PCDATA)>
+<!ELEMENT Resume (#PCDATA)>
+<!ELEMENT DateDeSortie (#PCDATA)>
+<!ELEMENT Couverture (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Prenom (#PCDATA)>
